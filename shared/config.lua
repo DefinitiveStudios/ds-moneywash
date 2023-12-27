@@ -11,8 +11,21 @@ return {
         {name = 'LaundryMat_4', slots = 2, coords = vector3(1139.43, -989.65, 46.11)}, -- dont touch unless you know what you are doing but can add more if you want
     },
     allowed = { -- only tested this with one item, should work but then you will need to add more slots above
-        ['moneyrolls'] = {
+        ['moneyrolls'] = { -- item i use in my server for 'dirty money'
             payout = 25, -- cash payout per
         },
     },
 }
+
+    -- if you want to use the same item thats listed above, make sure to put this in your items list in QB-Core // i do not have an image yet, so just make one / use one already in qb
+    -- ['moneyrolls']                     = {
+    --     ['name'] = 'moneyrolls',                       
+    --     ['label'] = 'Money Rolls',              
+    --     ['weight'] = 0,         
+    --     ['type'] = 'item',         
+    --     ['image'] = 'moneyrolls.png',             
+    --     ['unique'] = false,          
+    --     ['useable'] = false,     
+    --     ['shouldClose'] = true,      
+    --     ['combinable'] = nil,   
+    --     ['description'] = 'Rolled up bills?'},
