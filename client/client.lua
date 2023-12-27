@@ -10,7 +10,6 @@ RegisterNetEvent('ds-gangs:moneywash:access:Washer', function(id)
 end)
 
 EstablishZones = function()
-	DeleteWasherZones()
 	for i=1, #cfg.moneywash do
 		local data = cfg.moneywash[i]
 	    exports.ox_target:addSphereZone({
