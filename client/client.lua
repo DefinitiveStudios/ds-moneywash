@@ -45,11 +45,6 @@ RegisterNetEvent("QBCore:Client:OnPlayerLoaded", function()
     EstablishZones()
 end)
 
-RegisterNetEvent('QBCore:Client:OnGangUpdate', function(gang)
-    EstablishZones()
-end)
-
-
 RegisterNetEvent("QBCore:Client:OnPlayerUnload", function()
     DeleteWasherZones()
 end)

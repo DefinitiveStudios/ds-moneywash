@@ -38,7 +38,7 @@ local function ProcessMoneyWash()
         end
     end
 
-    SetTimeout(600*cfg.moneywashtime, ProcessMoneyWash)
+    SetTimeout(60000*cfg.moneywashtime, ProcessMoneyWash)
 end
 
 ProcessMoneyWash()
