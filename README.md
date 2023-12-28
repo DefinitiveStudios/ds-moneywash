@@ -4,4 +4,4 @@ Abandoned Landromat Interior : https://www.gta5-mods.com/maps/abandoned-laundrom
 
 I might make some tweaks to it in the future, but it's functional out of the box. I will not be doing an ESX version, different target system / inventory. This is strictly designed with things I utilize and offering to others to use
 
-Definite Studio Discord : https://discord.gg/HHnTWYcU24
+Definitive Studio Discord : https://discord.gg/HHnTWYcU24
