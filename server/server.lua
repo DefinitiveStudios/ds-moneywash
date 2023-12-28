@@ -9,8 +9,6 @@ if not success then return warn(msg) end
 
 local cfg = lib.require('shared.config')
 
-GangWash = {}
-
 lib.callback.register('ds-gangs:callback:WasherInUse', function(source, id)
     local washer = cfg.moneywash[id]
     local stashName = washer.name
